@@ -20,7 +20,7 @@ public class ReaderFromFile {
                     .collect(Collectors.toList());
             list2 = reader.lines()
                     .skip(1)
-                    .limit(countOfLines.get(0))
+                    .limit(countOfLines.get(1))
                     .collect(Collectors.toList());
             List<List<String>> twoListsFromFile = new ArrayList<>();
             twoListsFromFile.add(list1);
